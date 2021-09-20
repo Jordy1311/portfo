@@ -1,15 +1,25 @@
+/* !!PLEASE USE BEM!! */
 /* VARIABLES */
-colors {
+:root {
   --main-text-color: #282828;
   --logo-pink: #EC7B85;
   --logo-blue: #83D1E0;
   --logo-grey: #797979;
 }
+/* VARIABLES */
 
+
+/* GLOBAL */
 html, body {
   color: var(--main-text-color);
   font-family: Helvetica, Arial, sans-serif;
 }
+a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+/* GLOBAL */
+
 
 /* NAV COMPONENT */
 .Nav {
@@ -19,19 +29,17 @@ html, body {
   display: flex;
   align-items: center;
 }
-.logo-main {
+.nav--logo {
   width: 10vw;
   max-width: 150px;
 }
-.nav_linkgroup {
+.nav--linkgroup {
   margin-left: auto;
 }
-.nav_link {
+.nav--link {
   margin-left: 2vw;
-
-  text-decoration: none;
-  color: var(--main-text-color);
 }
-.nav_link:hover {
-  color: ;
+.nav--link:hover {
+  color: var(--logo-blue);
 }
+/* NAV COMPONENT */
