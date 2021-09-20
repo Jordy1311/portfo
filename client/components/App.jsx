@@ -1,8 +1,12 @@
 import React from 'react'
 
+import Landing from './Landing'
+
 const App = () => {
   return (
-    <h1>Hola!! This is where stuff should go!!</h1>
+    <>
+      <Landing />
+    </>
   )
 }
 
