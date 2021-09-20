@@ -1,4 +1,5 @@
-/* !!PLEASE USE BEM!! */
+/* !!PLEASE USE BEM NAMING CONVENTION!! */
+
 /* VARIABLES */
 :root {
   --main-text-color: #282828;
@@ -43,3 +44,34 @@ a {
   color: var(--logo-blue);
 }
 /* NAV COMPONENT */
+
+
+/* LANDING COMPONENT */
+.Landing {
+  height: 100vh;
+}
+.landing--group {
+  margin-top: 20vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+.landing--group * {
+  margin: 0px;
+}
+.landing--group--photo {
+  width: 25vw;
+  max-width: 150px;
+  border-radius: 50%;
+}
+.landing--group--text * {
+  margin-top: 2vh;
+}
+.landing--group--text h3 {
+  width: 60vw;
+  max-width: 450px;
+}
+/* LANDING COMPONENT */
