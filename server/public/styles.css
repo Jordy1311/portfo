@@ -1,4 +1,37 @@
+/* VARIABLES */
+colors {
+  --main-text-color: #282828;
+  --logo-pink: #EC7B85;
+  --logo-blue: #83D1E0;
+  --logo-grey: #797979;
+}
+
 html, body {
-  color: #28282e;
+  color: var(--main-text-color);
   font-family: Helvetica, Arial, sans-serif;
+}
+
+/* NAV COMPONENT */
+.Nav {
+  height: 40px;
+  margin: 0px 4vw;
+
+  display: flex;
+  align-items: center;
+}
+.logo-main {
+  width: 10vw;
+  max-width: 150px;
+}
+.nav_linkgroup {
+  margin-left: auto;
+}
+.nav_link {
+  margin-left: 2vw;
+
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.nav_link:hover {
+  color: ;
 }
