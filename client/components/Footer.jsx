@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      
+    <div className='Footer'>
+      <p>Made with ❤️ and hosted on my Raspberry Pi 4</p>
     </div>
   )
 }
