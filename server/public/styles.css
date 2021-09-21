@@ -23,22 +23,24 @@ a {
 
 
 /* NAV COMPONENT */
-.Nav {
-  height: 40px;
-  margin: 0px 4vw;
-
+/* this margin to breakpoint one */
+.Nav {  
+  height: 30px;
+  padding: 20px;
+  
   display: flex;
   align-items: center;
 }
 .nav--logo {
-  width: 10vw;
-  max-width: 150px;
+  width: 100px;
+  /* max-width: 150px;
+  min-width: 100px; */
 }
 .nav--linkgroup {
   margin-left: auto;
 }
 .nav--link {
-  margin-left: 2vw;
+  margin-left: 15px;
 }
 .nav--link:hover {
   color: var(--logo-blue);
@@ -49,13 +51,18 @@ a {
 /* LANDING COMPONENT */
 .Landing {
   height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .landing--group {
-  margin-top: 20vh;
+  height: 25vh;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   text-align: center;
 }
@@ -68,7 +75,7 @@ a {
   border-radius: 50%;
 }
 .landing--group--text * {
-  margin-top: 2vh;
+  margin-top: 2%;
 }
 .landing--group--text h3 {
   width: 60vw;

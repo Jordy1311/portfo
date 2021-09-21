@@ -3,7 +3,9 @@ import React from 'react'
 const Nav = () => {
   return (
     <div className='Nav'>
-      <img src='/images/logo-color.png' alt="My cool logo is <j.cooper> with colored in o's" className='nav--logo' />
+      <a href="#">
+        <img src='/images/logo-color.png' alt="My cool logo is <j.cooper> with colored in o's" className='nav--logo' />
+      </a>
       <div className='nav--linkgroup'>
         <a href='#about' className='nav--link'>about</a>
         <a href='#projects' className='nav--link'>projects</a>
