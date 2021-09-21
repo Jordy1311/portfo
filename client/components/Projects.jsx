@@ -9,7 +9,7 @@ const Projects = () => {
   const { projectsData, langsData } = data
 
   return (
-    <div className='Projects'>
+    <div id='Projects'>
       <h1>projects</h1>
       <div className="projects--projects-group">
         {projectsData.map(project => <Project key={project.title} project={project} />)}

@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <>
       <Nav />
-      <div className="Landing">
+      <div id="Landing">
         <div className='landing--group'>
           <img src='/images/me-mug.jpeg' alt="Me grinning after having just mountain biked up a big hill in Rotorua" className='landing--group--photo' />
           <div className="landing--group--text">
