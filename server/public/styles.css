@@ -32,6 +32,9 @@ a {
   
   display: flex;
   align-items: center;
+  
+  position: sticky;
+  top: 0;
 }
 .nav--logo {
   width: 100px;
@@ -179,6 +182,9 @@ a {
 
 /* /FOOTER COMPONENT */
   .Footer {
+    position: relative;
+    bottom: 60px;
+
     text-align: center;
   }
 /* /FOOTER COMPONENT */
