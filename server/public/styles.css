@@ -154,4 +154,13 @@ a {
 .projectlang--image {
   width: 40px;
 }
-/* PROJECTS COMPONENT */
+/* PROJECTS COMPONENT *//* CONTACTME COMPONENT */
+.ContactMe {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* /CONTACTME COMPONENT */
