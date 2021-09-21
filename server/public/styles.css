@@ -12,6 +12,8 @@
 
 /* GLOBAL */
 html, body {
+  margin: 0px;
+
   color: var(--main-text-color);
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -82,3 +84,28 @@ a {
   max-width: 450px;
 }
 /* LANDING COMPONENT */
+
+
+/* ABOUTME COMPONENT */
+.AboutMe {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme--group {
+  width: 70vw;
+
+  display: flex;
+  justify-content: space-between;
+}
+.aboutme--text {
+  width: 30vw;
+  min-width: 300px;
+}
+.aboutme--photo {
+  object-fit: cover;
+  width: 25vw;
+}
+/* ABOUTME COMPONENT */
