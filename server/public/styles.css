@@ -109,3 +109,49 @@ a {
   width: 25vw;
 }
 /* ABOUTME COMPONENT */
+
+
+/* PROJECTS COMPONENT */
+.Projects {
+ height: 100vh;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.projects--projects-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects--langs-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* project component */
+.Project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 10px;
+}
+.project--image {
+  width: 200px;
+}
+/* projectslang component */
+.ProjectLang {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 10px;
+}
+.projectlang--image {
+  width: 40px;
+}
+/* PROJECTS COMPONENT */
