@@ -1,8 +1,18 @@
 import React from 'react'
 
+import Landing from './Landing'
+import AboutMe from './AboutMe'
+import Projects from './Projects'
+import ContactMe from './ContactMe'
+
 const App = () => {
   return (
-    <h1>Hola!! This is where stuff should go!!</h1>
+    <>
+      <Landing />
+      <AboutMe />
+      <Projects />
+      <ContactMe />
+    </>
   )
 }
 
