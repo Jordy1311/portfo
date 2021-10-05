@@ -82,10 +82,12 @@ a {
   border-radius: 50%;
 }
 .typewriter {
-  font-size: 2em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
 }
-.typewriter--cursor {
-  font-size: 2.5em;
+.Typewriter__cursor {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
 }
 .landing--group--text * {
   margin-top: 2%;
@@ -137,6 +139,7 @@ a {
 }
 .projects--projects-group {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
