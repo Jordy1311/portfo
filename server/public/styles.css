@@ -113,6 +113,7 @@ a {
   width: 70vw;
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .aboutme--text {
@@ -122,6 +123,7 @@ a {
 .aboutme--photo {
   object-fit: cover;
   width: 25vw;
+  min-width: 250px;
 }
 /* /ABOUTME COMPONENT */
 
@@ -145,6 +147,7 @@ a {
 }
 .projects--langs-group {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
