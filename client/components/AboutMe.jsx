@@ -7,12 +7,12 @@ const AboutMe = () => {
         <div className="aboutme--text">
           <h1>about me</h1>
           <p>
-            This is a big fuck off paragraph that talks about me. Maybe something super interesting at first, that could be my big jump to get into this game?
+            I have taken a jump into the tech world from an almost 5 year career in Administration and leadership. This was something I was good at but it ultimately didn't scratch the itch I had for making an impact that counted.
             <br /><br />
-            Then maybe how I got here which could include how I learnt for a long while by myself and then was able to do a lot more collaborative work and continue learning through Enspiral Dev Academy.
+            With the mentorship of a great friend in the industry, I went head first into self-directed learning following freecodecamp and Udemy courses. I started a couple of personal projects but felt I was lacking some skills to effectively work in a tech team. In walks Dev Academy, a 15 week software development course focusing intensely at making developers who are incredible team-players and have all the tools to pick up anything and run with it.
             <br /><br />
-            I could then start talking about what drives me to keep doing this and maybe what I would hope to get from a potential job and the things that are really important to me in that.
-          </p>
+            I am now feeling well rounded in both technical and people skills and ready to dive into the industry. I love playing with code and can't wait to work really hard with a group of awesome and like-minded people. I am passionate about working in cohesive and safe teams - effective teamwork is the secret to success.
+         </p>
         </div>
         <img src="/images/me-bush.jpeg" alt="Me waving to you from the middle of a raspberry bush" className='aboutme--photo' />
       </div>
