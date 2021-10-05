@@ -3,28 +3,40 @@ export default {
     {
       title: "commitCanvas",
       img: "/images/projects/commitCanvas.png",
-      imgDescription: "An example of the cube art that get's output from commitCanvas",
+      imgDescription: "example of the pixel-art that is output from commitCanvas replicating GitHub's contribution graph",
+      projectDescription: "My personal project to create pixel-art in in your GitHub contribution graph.",
       link: "https://github.com/Jordy1311/commitCanvas"
+    },
+    {
+      title: "Hihi",
+      img: "/images/projects/hihi-logo.png",
+      imgDescription: "My final project at Dev Academy",
+      projectDescription: "",
+      link: "https://github.com/roa-2021/twittr"
+    },
+    {
+      title: "Lost and Found",
+      img: "/images/projects/lost-and-found.png",
+      imgDescription: "cartoon imagery of owners and pets with a large phone indicating an app",
+      projectDescription: "",
+      link: "https://github.com/roa-2021/lost-and-found"
+    },
+    {
+      title: "party party",
+      img: "/images/projects/partyparty.jpg",
+      imgDescription: "very minty looking cocktail suggestion from using the partyparty app",
+      projectDescription: "",
+      link: "https://github.com/roa-2021/party-party"
     },
     {
       title: "Calculator",
       img: "/images/projects/calculator.png",
       imgDescription: "A quaint retro calculator",
+      projectDescription: "",
       link: "https://jordy1311.github.io/calculator/"
-    },
-    {
-      title: "Minesweeper",
-      img: "/images/projects/minesweeper.png",
-      imgDescription: "A screenshot of the classic minesweeper. My version doesn't look as good!",
-      link: "https://jordy1311.github.io/minesweeper/"
     }
   ],
   langsData: [
-    {
-      name: "Javascript",
-      img: "/images/langs/javascript-original.svg",
-      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-    },
     {
       name: "React",
       img: "/images/langs/react-original.svg",
@@ -34,6 +46,11 @@ export default {
       name: "Redux",
       img: "/images/langs/redux-original.svg",
       link: "https://redux.js.org/"
+    },
+    {
+      name: "Javascript",
+      img: "/images/langs/javascript-original.svg",
+      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
       name: "HTML",
