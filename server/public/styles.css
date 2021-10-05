@@ -176,6 +176,7 @@ a {
 /* CONTACTME COMPONENT */
 #ContactMe {
   height: 100vh;
+  text-align: center;
 
   display: flex;
   flex-direction: column;
@@ -183,6 +184,9 @@ a {
   align-items: center;
 
   scroll-snap-align: start;
+}
+.emailme--link:hover {
+  color: var(--logo-blue);
 }
 /* /CONTACTME COMPONENT */
 
