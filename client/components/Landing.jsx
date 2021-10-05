@@ -1,17 +1,9 @@
 import React from 'react'
-import Typewriter from 'typewriter-effect'
 
+import LandingTypewriter from './LandingTypewriter'
 import Nav from './Nav'
 
 const Landing = () => {
-  const phrases = [
-    'Junior developer',
-    'Amazing friend',
-    'Redux smasher',
-    'Javascript jazz artist',
-    'React racedriver',
-    'Coffee fanatic'
-  ]
 
   return (
     <>
@@ -22,22 +14,9 @@ const Landing = () => {
           <div className="landing--group--text">
             <h2>Hi, I'm Jordan 👋</h2>
 
-            <Typewriter 
-              options={{
-                wrapperClassName: 'typewriter',
-                cursorClassName: 'typewriter--cursor',
-                loop: true,
-                autoStart: true, 
-                strings: phrases 
-              }}
-              onInit={typewriter => {
-                typewriter
-                  .pauseFor(500)
-                  .deleteAll()
-                  .start()
-              }}/>
+            <LandingTypewriter />
 
-            <h3>I am a person who is cool, has interests and loves great collaboration. Work fucking hard and love to know how things tick to get out the best.</h3>
+            <h3>I'm a Full-stack Software Developer who's keen to make waves not splashes. </h3>
           </div>
         </div>
       </div>
