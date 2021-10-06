@@ -54,7 +54,7 @@ a {
 
 
 /* LANDING COMPONENT */
-#Landing {
+#home {
   height: 100vh;
 
   display: flex;
@@ -100,7 +100,7 @@ a {
 
 
 /* ABOUTME COMPONENT */
-#AboutMe {
+#about {
   height: 100vh;
 
   display: flex;
@@ -129,7 +129,7 @@ a {
 
 
 /* PROJECTS COMPONENT */
-#Projects {
+#projects {
  height: 100vh;
 
  display: flex;
@@ -180,7 +180,7 @@ a {
 
 
 /* CONTACTME COMPONENT */
-#ContactMe {
+#contact {
   height: 100vh;
   text-align: center;
 
