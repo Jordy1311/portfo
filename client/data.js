@@ -15,13 +15,6 @@ export default {
       link: "https://github.com/roa-2021/twittr"
     },
     {
-      title: "Lost and Found",
-      img: "/images/projects/lost-and-found.png",
-      imgDescription: "cartoon imagery of owners and pets with a large phone indicating an app",
-      projectDescription: "",
-      link: "https://github.com/roa-2021/lost-and-found"
-    },
-    {
       title: "party party",
       img: "/images/projects/partyparty.jpg",
       imgDescription: "very minty looking cocktail suggestion from using the partyparty app",
