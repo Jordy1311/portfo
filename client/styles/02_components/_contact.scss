@@ -1,0 +1,13 @@
+#contact {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.emailme--link:hover {
+  color: var(--logo-blue);
+}
