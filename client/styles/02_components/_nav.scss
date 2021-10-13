@@ -1,0 +1,24 @@
+/* this margin to breakpoint one */
+
+.Nav {
+  height: 30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.nav--logo {
+  width: 100px;
+  /* max-width: 150px;
+  min-width: 100px; */
+}
+.nav--linkgroup {
+  margin-left: auto;
+}
+.nav--link {
+  margin-left: 15px;
+}
+.nav--link:hover {
+  color: $logo-blue;
+}

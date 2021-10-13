@@ -16,7 +16,7 @@ const Landing = () => {
 
             <LandingTypewriter />
 
-            <h3>Full-stack Software Developer who's keen to make waves not splashes. </h3>
+            <h3>Full-stack Software Developer keen to make waves not splashes. </h3>
           </div>
         </div>
       </div>

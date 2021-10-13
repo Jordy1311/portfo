@@ -1,0 +1,43 @@
+#projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+.projects--projects-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.projects--langs-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+/* project component */
+.Project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+.project--image {
+  max-width: 200px;
+  max-height: 200px;
+}
+/* projectslang component */
+.ProjectLang {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+.projectlang--image {
+  width: 40px;
+}

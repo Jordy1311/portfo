@@ -1,0 +1,46 @@
+#home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+.landing--group {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.landing--group * {
+  margin: 0px;
+}
+
+.landing--group--photo {
+  width: 20vw;
+  min-width: 200px;
+  max-width: 350px;
+  border-radius: 50%;
+}
+
+.typewriter {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+}
+
+.Typewriter__cursor {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+}
+
+.landing--group--text * {
+  margin-top: 2%;
+}
+
+.landing--group--text h3 {
+  width: 60vw;
+  max-width: 450px;
+}

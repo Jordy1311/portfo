@@ -1,0 +1,27 @@
+#about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.aboutme--group {
+  width: 70vw;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutme--text {
+  width: 30vw;
+  min-width: 300px;
+  max-width: 450px;
+}
+
+.aboutme--photo {
+  object-fit: contain;
+  width: 25vw;
+  min-width: 300px;
+  max-width: 450px;
+}
