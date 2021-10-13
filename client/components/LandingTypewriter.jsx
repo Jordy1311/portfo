@@ -3,10 +3,18 @@ import Typewriter from 'typewriter-effect'
 
 const LandingTypewriter = () => {
   const phrases = [
-    'genuine friend',
+    'infectiously curious',
     'coffee fanatic',
-    'killer communicator',
-    'cycling nerd'
+    'straight-up communicator',
+    'cycling nerd',
+    'dependable friend',
+    'enthusiastic problem solver',
+    'dope human',
+    'authentic to the bone',
+    'natural collaborator',
+    'all-round great guy',
+    'uses === instead of ==',
+    'juggler!'
   ]
 
   return (
@@ -19,7 +27,7 @@ const LandingTypewriter = () => {
       }}
       onInit={typewriter => {
       typewriter
-        .pauseFor(200)
+        .pauseFor(150)
         .deleteAll()
         .start()
     }}/>
