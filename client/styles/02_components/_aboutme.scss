@@ -8,18 +8,20 @@
 
 .aboutme--group {
   width: 70vw;
+  max-width: 1200px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .aboutme--text {
   width: 30vw;
   min-width: 300px;
+  max-width: 450px;
 }
 
 .aboutme--photo {
-  object-fit: cover;
+  object-fit: contain;
   width: 25vw;
-  min-width: 250px;
+  min-width: 300px;
+  max-width: 450px;
 }
