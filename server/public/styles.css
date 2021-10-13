@@ -1,23 +1,16 @@
 /* VARIABLES */
-:root {
-  --main-text-color: #282828;
-  --logo-pink: #EC7B85;
-  --logo-blue: #83D1E0;
-  --logo-grey: #797979;
-}
-
 /* GLOBAL */
 html, body {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   margin: 0px;
-  color: var(--main-text-color);
+  color: #282828;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: var(--main-text-color);
+  color: #282828;
 }
 
 #about {
@@ -57,7 +50,7 @@ a {
 }
 
 .emailme--link:hover {
-  color: var(--logo-blue);
+  color: #83D1E0;
 }
 
 .Footer {
@@ -137,7 +130,7 @@ a {
 }
 
 .nav--link:hover {
-  color: var(--logo-blue);
+  color: #83D1E0;
 }
 
 #projects {
