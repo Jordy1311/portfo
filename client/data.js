@@ -12,14 +12,14 @@ export default {
       img: "/images/projects/hihi-logo.png",
       imgDescription: "My final project at Dev Academy",
       projectDescription: "",
-      link: "https://github.com/roa-2021/twittr"
+      link: "https://hihi-app.herokuapp.com/#/"
     },
     {
       title: "party party",
       img: "/images/projects/partyparty.jpg",
       imgDescription: "very minty looking cocktail suggestion from using the partyparty app",
       projectDescription: "",
-      link: "https://github.com/roa-2021/party-party"
+      link: "https://solo-party-party.herokuapp.com/"
     },
     {
       title: "Calculator",
