@@ -1,6 +1,6 @@
 /* this margin to breakpoint one */
 
-.Nav {
+nav {
   height: 30px;
   padding: 20px;
   display: flex;
@@ -16,9 +16,28 @@
 .nav--linkgroup {
   margin-left: auto;
 }
+.nav--menu {
+  display: flex;
+}
+.nav--item  {
+  list-style-type: none;
+}
 .nav--link {
   margin-left: 15px;
 }
 .nav--link:hover {
   color: $logo-blue;
+}
+
+.hamburger {
+  display: none;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
 }
