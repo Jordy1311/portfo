@@ -1,18 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Nav = () => {
+  const [showResponsiveMenu, setShowResponsiveMenu] = useState(false)
+
+  const toggleShowResponsive = () => setShowResponsiveMenu(!showResponsiveMenu)
+
   return (
-    <div className='Nav'>
-      <a href="#">
-        <img src='/images/logo-color.png' alt="My cool logo is <j.cooper> with colored in o's" className='nav--logo' />
+    <nav>
+      <a href="https//:jcoop.co">
+        <img src='/images/logo-color.png' alt="j.cooper logo" className='nav--logo' />
       </a>
       <div className='nav--linkgroup'>
-        <a href="#home" className='nav--link'>home</a>
-        <a href='#about' className='nav--link'>about</a>
-        <a href='#projects' className='nav--link'>projects</a>
-        <a href='#contact' className='nav--link'>contact</a>
+        <ul className={showResponsiveMenu ? "nav--menu active" : "nav--menu"}>
+          <li className='nav--item'>
+            <a onClick={showResponsiveMenu && toggleShowResponsive} href="#home" className='nav--link'>home</a>
+          </li>
+          <li className='nav--item'>
+            <a onClick={showResponsiveMenu && toggleShowResponsive} href='#about' className='nav--link'>about</a>
+          </li>
+          <li className='nav--item'>
+            <a onClick={showResponsiveMenu && toggleShowResponsive} href='#projects' className='nav--link'>projects</a>
+          </li>
+          <li className='nav--item'>
+            <a onClick={showResponsiveMenu && toggleShowResponsive} href='#contact' className='nav--link'>contact</a>
+          </li>
+        </ul>
+        <div onClick={toggleShowResponsive} className={showResponsiveMenu ? "hamburger active" : "hamburger"}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
       </div>
-    </div>
+    </nav>
   )
 }
 
