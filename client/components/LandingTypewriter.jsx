@@ -3,18 +3,18 @@ import Typewriter from 'typewriter-effect'
 
 const LandingTypewriter = () => {
   const phrases = [
-    'infectiously curious',
-    'coffee fanatic',
-    'straight-up communicator',
-    'cycling nerd',
-    'dependable friend',
-    'enthusiastic problem solver',
-    'dope human',
-    'authentic to the bone',
-    'natural collaborator',
-    'all-round great guy',
-    'uses === instead of ==',
-    'juggler!'
+    'developer of software',
+    'enthusiastic engineer',
+    'brew install --dev jordan',
+    'enthusiastic collaborator',
+    'energetic learner',
+    'natural team-player',
+    'straight-up hardworker',
+    'inject --filter-coffee',
+    'cycle nerd',
+    'juggler --badly',
+    'boardgame lover',
+    'curious creature',
   ]
 
   return (
