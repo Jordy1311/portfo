@@ -12,11 +12,11 @@ const Landing = () => {
         <div className='landing--group'>
           <img src='/images/me-cartoon-sitting.svg' alt="Cartoon me sitting on the ground" className='landing--group--photo' />
           <div className="landing--group--text">
-            <h2>Hi, I'm Jordan 👋</h2>
+            <h1 className="landing--welcome">Hi, I'm Jordan 👋</h1>
 
             <LandingTypewriter />
 
-            <h3>Full-stack Software Developer keen to make waves not splashes. </h3>
+            <h2>Full-stack Software Developer keen to make waves not splashes. </h2>
           </div>
         </div>
       </div>
