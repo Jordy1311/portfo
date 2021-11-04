@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
     .nav--menu {
         text-align: center;
         width: 100vw;
@@ -22,7 +22,10 @@
     }
 
     .nav--item {
-        margin: 3rem 0;
+        margin: 4rem 0;
+    }
+    .nav--link {
+        font-size: 3rem;
     }
 
     .hamburger {
@@ -30,18 +33,16 @@
         cursor: pointer;
 
         position: fixed;
-        bottom: 40px;
-        right: 45px;
+        bottom: 3rem;
+        right: 3rem;
     }
-
+    
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
-
     .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
