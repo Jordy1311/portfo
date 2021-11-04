@@ -3,6 +3,7 @@ $main-text-black: #282828;
 $logo-pink: #EC7B85;
 $logo-blue: #83D1E0;
 $logo-grey: #797979;
+$background: #fafafa;
 
 /* GLOBAL */
 html, body {
@@ -10,6 +11,7 @@ html, body {
   scroll-behavior: smooth;
   margin: 0px;
 
+  background-color: $background;
   color: $main-text-black;
   font-family: Helvetica, Arial, sans-serif;
 }
