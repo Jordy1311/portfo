@@ -20,27 +20,24 @@
 }
 
 .landing--group--photo {
-  width: 20vw;
-  min-width: 200px;
-  max-width: 350px;
-  border-radius: 50%;
+  height: 30vh;
 }
 
 .typewriter {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.2em;
+  font-size: 1.5rem;
 }
 
 .Typewriter__cursor {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.2em;
+  font-size: 1.5rem;
 }
 
 .landing--group--text * {
   margin-top: 2%;
 }
 
-.landing--group--text h3 {
+.landing--group--text h2 {
   width: 60vw;
   max-width: 450px;
 }

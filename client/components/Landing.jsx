@@ -10,13 +10,13 @@ const Landing = () => {
       <Nav />
       <div id="home">
         <div className='landing--group'>
-          <img src='/images/me-mug.jpeg' alt="Me grinning after having just mountain biked up a big hill in Rotorua" className='landing--group--photo' />
+          <img src='/images/me-cartoon-sitting.svg' alt="Cartoon me sitting on the ground" className='landing--group--photo' />
           <div className="landing--group--text">
-            <h2>Hi, I'm Jordan 👋</h2>
+            <h1>Hi, I'm Jordan 👋</h1>
 
             <LandingTypewriter />
 
-            <h3>Full-stack Software Developer keen to make waves not splashes. </h3>
+            <h2>Full-stack Software Developer keen to make waves not splashes. </h2>
           </div>
         </div>
       </div>

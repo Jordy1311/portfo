@@ -2,10 +2,10 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div id='about'>
+    <div id='story'>
       <div className="aboutme--group">
         <div className="aboutme--text">
-          <h1>about me</h1>
+          <h1>My Story</h1>
           <p>
             I have taken a jump into the world of tech from an almost 5 year career in Administration and leadership. This was something I was good at but, ultimately, it didn't scratch the itch I had for making an impact that counted.
             <br /><br />
@@ -14,7 +14,7 @@ const AboutMe = () => {
             I am now feeling well rounded in both technical and people skills and ready to dive into the industry. I love playing with code and can't wait to work really hard with a group of awesome and like-minded people. I am passionate about working in cohesive and safe teams - effective teamwork is the secret to success.
          </p>
         </div>
-        <img src="/images/me-bush.jpeg" alt="Me waving to you from the middle of a raspberry bush" className='aboutme--photo' />
+        <img src="/images/me-mug.jpeg" alt="My smiley face looking at you" className='aboutme--photo' />
       </div>
     </div>
   )

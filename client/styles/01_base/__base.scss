@@ -3,6 +3,7 @@ $main-text-black: #282828;
 $logo-pink: #EC7B85;
 $logo-blue: #83D1E0;
 $logo-grey: #797979;
+$background: #fafafa;
 
 /* GLOBAL */
 html, body {
@@ -10,10 +11,32 @@ html, body {
   scroll-behavior: smooth;
   margin: 0px;
 
+  background-color: $background;
   color: $main-text-black;
   font-family: Helvetica, Arial, sans-serif;
 }
 a {
   text-decoration: none;
   color: $main-text-black;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+p {
+  font-size: 1.05rem;
+}
+li {
+  font-size: 1.05rem;
 }

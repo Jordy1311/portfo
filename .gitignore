@@ -4,3 +4,6 @@ bundle.js
 bundle.js.map
 
 .env
+
+server/public/styles.css
+server/public/styles.css.map

@@ -3,7 +3,17 @@ import React from 'react'
 const Project = ({ project }) => {
   return (
     <a href={project.link} target='__blank' className='Project'>
-      <img src={project.img} alt={project.imgDescription} className='project--image' />
+
+      <video 
+        loop
+        muted
+        playsInline
+        onMouseOver={e => e.target.play()}
+        onMouseOut={e => e.target.pause()}
+        className='project--image'>
+          <source src={project.img} type="video/webm" />
+      </video>
+
       <h4>{project.title}</h4>
     </a>
   )
