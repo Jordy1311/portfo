@@ -20,8 +20,9 @@
 }
 
 .aboutme--photo {
-  object-fit: contain;
-  width: 25vw;
-  min-width: 300px;
-  max-width: 450px;
+  width: 35vw;
+  max-width: 448px;
+  height: 100%;
+  align-self: center;
+  border-radius: 50%;
 }
