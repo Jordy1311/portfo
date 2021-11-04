@@ -2,10 +2,10 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div id='about'>
+    <div id='story'>
       <div className="aboutme--group">
         <div className="aboutme--text">
-          <h1>about me</h1>
+          <h1>My Story</h1>
           <p>
             I have taken a jump into the world of tech from an almost 5 year career in Administration and leadership. This was something I was good at but, ultimately, it didn't scratch the itch I had for making an impact that counted.
             <br /><br />

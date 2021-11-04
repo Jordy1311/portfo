@@ -13,16 +13,21 @@ const Nav = () => {
       <div className='nav--linkgroup'>
         <ul className={showResponsiveMenu ? "nav--menu active" : "nav--menu"}>
           <li className='nav--item'>
-            <a onClick={showResponsiveMenu && toggleShowResponsive} href="#home" className='nav--link'>home</a>
+            <a onClick={showResponsiveMenu && toggleShowResponsive} href="#home" className='nav--link'>Home</a>
           </li>
           <li className='nav--item'>
-            <a onClick={showResponsiveMenu && toggleShowResponsive} href='#about' className='nav--link'>about</a>
+            <a onClick={showResponsiveMenu && toggleShowResponsive} href='#story' className='nav--link'>Story</a>
           </li>
           <li className='nav--item'>
-            <a onClick={showResponsiveMenu && toggleShowResponsive} href='#projects' className='nav--link'>projects</a>
+            <a onClick={showResponsiveMenu && toggleShowResponsive} href='#projects' className='nav--link'>Projects</a>
           </li>
+
+          {showResponsiveMenu && <li className='nav--item'>
+            <a onClick={showResponsiveMenu && toggleShowResponsive} href='#projects' className='nav--link'>Proficiencies</a>
+          </li>}
+
           <li className='nav--item'>
-            <a onClick={showResponsiveMenu && toggleShowResponsive} href='#contact' className='nav--link'>contact</a>
+            <a onClick={showResponsiveMenu && toggleShowResponsive} href='#contact' className='nav--link'>Contact</a>
           </li>
         </ul>
         <div onClick={toggleShowResponsive} className={showResponsiveMenu ? "hamburger active" : "hamburger"}>
