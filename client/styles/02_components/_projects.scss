@@ -7,8 +7,8 @@
   scroll-snap-align: start;
 }
 .projects--projects-group {
-  width: 70vw;
-  max-width: 900px;
+  width: 90vw;
+  max-width: 1900px;
 
   display: flex;
   flex-wrap: wrap;
@@ -16,6 +16,9 @@
   justify-content: center;
 }
 .projects--langs-group {
+  width: 90vw;
+  max-height: 140px;
+
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -24,15 +27,16 @@
 
 /* project component */
 .Project {
+  width: 30%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 1.5rem;
+  margin: 0 1rem;
 }
-.project--image {
-  max-width: 250px;
-  max-height: 250px;
+.project--video {
+  width: 100%;
 }
 
 /* projectslang component */
