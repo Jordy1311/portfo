@@ -14,6 +14,7 @@ const Projects = () => {
       <div className="projects--projects-group">
         {projectsData.map(project => <Project key={project.title} project={project} />)}
       </div>
+      <br />
       <h1>Proficiencies</h1>
       <div className="projects--langs-group">
         {langsData.map(tool => <ProjectsLang key={tool.name} tool={tool} />)}
