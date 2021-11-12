@@ -9,6 +9,7 @@
 .projects--projects-group {
   width: 90vw;
   max-width: 1900px;
+  max-height: 60%;
 
   display: flex;
   flex-wrap: wrap;
@@ -27,16 +28,31 @@
 
 /* project component */
 .Project {
-  width: 30%;
+  width: 25%;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 1rem;
+  margin: .5rem 1rem;
 }
 .project--video {
   width: 100%;
+  max-height: 20vh;
+}
+.project-title {
+  margin: .3rem;
+  text-align: center;
+}
+.project-link-group {
+  width: 5rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+.project-link-group__svg {
+  fill: $main-text-black;
+}
 .project-link-group__svg:hover {
   fill: $logo-blue;
 }
