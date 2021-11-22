@@ -74,7 +74,7 @@ export default {
     {
       name: "NodeJS",
       img: "/images/langs/nodejs-icon.svg",
-      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      link: "https://nodejs.org/en/about/"
     },
     {
       name: "HTML",
