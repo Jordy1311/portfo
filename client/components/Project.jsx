@@ -25,7 +25,7 @@ const Project = ({ project }) => {
         playsInline
         onMouseOver={e => handleMouseOver(e)}
         onMouseOut={e => handleMouseOut(e)}
-        className={userIsHovering ? 'project--video project--video_expanded' : 'project--video'}>
+        className={'project--video'}>
           <source src={project.img} type="video/webm" />
       </video>
       
