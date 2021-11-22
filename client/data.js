@@ -72,6 +72,11 @@ export default {
       link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
+      name: "NodeJS",
+      img: "/images/langs/nodejs-icon.svg",
+      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
       name: "HTML",
       img: "/images/langs/html5-original-wordmark.svg",
       link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
